@@ -3,7 +3,7 @@ name: Build and Push Docker image for SOAP service
 on:
   push:
     branches:
-      - test  # Puedes cambiar esto si deseas usar otra rama
+      - test  
 
 jobs:
   build_and_push:
